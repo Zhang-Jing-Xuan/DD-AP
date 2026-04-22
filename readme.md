@@ -1,5 +1,3 @@
-**Distill the biased datasets**
- 
 * Step 1: Run ECS.py to obtain the biasd score
   
 ```python ECS.py  --dataset CMNIST  --model ConvNet  --ipc 50  --dsa_strategy color_crop_cutout_flip_scale_rotate  --init real  --lr_img 1  --num_exp 1  --num_eval 5 --data_path MNIST_align0.95_severity_4.pth --log_path ECS_50_CMNIST_align0.95_severity_4```
